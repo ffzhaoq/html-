@@ -2,13 +2,21 @@
 内容介绍
 1. HTML 是李爵士发明的
 2. HTML 起手应该写:
+ ```javascript
+  <!DOCTYPE html>
+  <html lang="zh-CN">
+  <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>网页</title>
+  </head>
+  <body>
 
-   * 文档类型
-   * html标签
-   * 文件的字符编码
-   * 禁用缩放
-   * 告诉IE使用最新内核
-   * 标题
+  </body>
+  </html>
+  <!-- 该段代码可在VScode中输入html:5自动生成 -->
+ ```
 3. HTML 常用标签有:    
    * 段落p
    * 标题h1~h6
